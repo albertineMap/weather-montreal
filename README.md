@@ -2,10 +2,13 @@
 Clone the repository and install the dependency
 
 ```bash
-- git clone git@github.com/albertineMap/weather-montreal.git
-- composer install
-- npm install
+- cd weather-montreal
+- git init
+- git clone https://github.com/albertineMap/weather-montreal.git
 - cp .env.example .env
+- composer install
+- npm init
+- npm install
 ```
 
 Then create the necessary database.
@@ -25,7 +28,7 @@ php artisan migrate
  To run the application
  
  ```bash
- php atisan serve 
+ php artisan serve 
  npm run watch
  ```
  
