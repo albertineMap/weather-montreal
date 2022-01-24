@@ -1,16 +1,21 @@
 ## Installation
-First clone this repository, install the dependencies, and setup your .env file.
+Clone the repository and install the dependency
 
-git clone git@github.com:JeffreyWay/Laravel-From-Scratch-Blog-Project.git blog
+```bash
+- git clone git@github.com/albertineMap/weather-montreal.git
+- composer install
+- npm install
+```
+
 composer install
 cp .env.example .env
 Then create the necessary database.
 
 **Database** 
 
-Create database weather
+Create new database weather 
 
-And run the initial migrations
+And run the initial migration
 
 ```bash
 php artisan migrate 
@@ -21,7 +26,7 @@ php artisan migrate
  To run the application
  
  ```bash
- php artisan serve 
+ php atisan serve 
  npm run watch
  ```
  
@@ -30,4 +35,4 @@ php artisan migrate
 ```bash
  composer test
  ```
-  ***reload the page for any problem ***
+  ### Reload the page for the first time
