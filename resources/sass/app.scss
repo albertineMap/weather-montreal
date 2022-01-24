@@ -1,0 +1,39 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//jquery
+@import '~jquery-ui/themes/base/all.css';
+
+// body{
+//     background-image:url("/assets/montreal.jpg");
+// }
+
+#current  {
+    width: 41%;
+    border: solid 1px #6ae7dc;
+    background-image: linear-gradient(to bottom right, #6ae7dc, white);
+    display: flex;
+    margin: 3% 30%;
+    padding: 2px 0;
+}
+
+th {
+    border: solid 2px #87c7fc;
+    padding-left: 10px;
+    margin:1px;
+    padding: 2px 0;
+}
+#table{
+    background-image: linear-gradient(to bottom right, #75b4e3, white);
+    margin : 1% 8% 33% 8%;
+}
+
+img {
+     max-width: 100%;
+  }

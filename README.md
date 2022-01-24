@@ -8,7 +8,7 @@ Then create the necessary database.
 
 **Database** 
 
-Create database forecasts
+Create database weather
 
 And run the initial migrations
 
