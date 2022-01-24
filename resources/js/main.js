@@ -64,14 +64,13 @@ $(async function(){
 
 
     //calling the first time
-    // store_weather();
+    store_weather();
 
 
     //call every 30 min
     setInterval(function() {
-        console.log('starting 30 ...');
-        // store_weather();
-    },5*1000);
+        store_weather();
+    },1800*1000);
 
 
 

@@ -5,10 +5,9 @@ Clone the repository and install the dependency
 - git clone git@github.com/albertineMap/weather-montreal.git
 - composer install
 - npm install
+- cp .env.example .env
 ```
 
-composer install
-cp .env.example .env
 Then create the necessary database.
 
 **Database** 
